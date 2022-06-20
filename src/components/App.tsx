@@ -1,10 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import EventsButtons from "./EventsButtons";
 import Header from "./PrimaryHeader";
+import { Event, eventsList } from "./../data/EventsList";
 
 function App() {
-  const [areEventsHidden, setAreEventsHidden] = useState(false);
+  const [areEventsHidden, setAreEventsHidden] = useState<boolean>(false);
+  const [events, setEvents] = useState<Event[]>();
+
+  useEffect(() => {
+    setEvents(eventsList());
+  }, []);
 
   return (
     <div className="App">
