@@ -1,0 +1,10 @@
+.EventsButtons {
+  border: none;
+  background-color: crimson;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  min-width: 200px;
+}
