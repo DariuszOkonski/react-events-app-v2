@@ -1,9 +1,10 @@
 import "./App.css";
+import PrimaryHeader from "./PrimaryHeader";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world111</h1>
+      <PrimaryHeader description="Events in Your Area" />
     </div>
   );
 }
