@@ -1,0 +1,10 @@
+.container {
+  margin: 30px 0;
+}
+
+.title {
+  font-size: 2rem;
+  color: #918f8f;
+  font-weight: 100;
+  letter-spacing: 2px;
+}

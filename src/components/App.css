@@ -4,3 +4,19 @@
   width: 100%;
   max-width: 600px;
 }
+
+button {
+  border: none;
+  background-color: crimson;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  min-width: 200px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
