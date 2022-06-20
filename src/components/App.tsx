@@ -1,10 +1,13 @@
 import "./App.css";
-import PrimaryHeader from "./PrimaryHeader";
+import Header from "./PrimaryHeader";
 
 function App() {
   return (
     <div className="App">
-      <PrimaryHeader description="Events in Your Area" />
+      <Header
+        title="Events in Your Area"
+        description="All the latest events in Marioland"
+      />
     </div>
   );
 }
